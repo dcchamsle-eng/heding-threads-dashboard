@@ -4,7 +4,7 @@ on:
   schedule:
     # 매일 오전 8시(KST) = UTC 23:00 전날
     - cron: "0 23 * * *"
-  workflow_dispatch: {}  # 수동 실행 버튼 활성화
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -12,6 +12,7 @@ permissions:
 jobs:
   crawl:
     runs-on: ubuntu-latest
+
     steps:
       - name: 저장소 체크아웃
         uses: actions/checkout@v4
@@ -26,13 +27,13 @@ jobs:
           pip install -r requirements.txt
           playwright install --with-deps chromium
 
-      - name: 1단계 - 공고 후보 발견 (Playwright, 검색만)
+      - name: 1단계 - 공고 후보 발견
         run: python crawler/discover.py
 
-      - name: 2단계 - 헤딩써치 검증 + 신규/변경/마감 판정 (requests+bs4)
+      - name: 2단계 - 헤딩써치 검증 및 상태 판정
         run: python crawler/parse_job.py
 
-      - name: 3단계 - 구글시트용 CSV 생성 (점수 포함)
+      - name: 3단계 - 구글시트용 CSV 생성
         run: python crawler/export_csv.py
 
       - name: 변경사항 커밋
