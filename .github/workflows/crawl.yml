@@ -1,68 +1,27 @@
-name: 헤딩써치 공고 모니터링
-
+name: Validate locally collected data
 on:
-  schedule:
-    # 매일 오전 8시(KST) = UTC 23:00 전날
-    - cron: "0 23 * * *"
   workflow_dispatch:
-
+  push:
+    paths:
+      - 'data/**'
 permissions:
-  contents: write
-
+  contents: read
 jobs:
-  crawl:
+  validate:
     runs-on: ubuntu-latest
-
     steps:
-      - name: 저장소 체크아웃
-        uses: actions/checkout@v4
-
-      - name: Python 설치
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
-
-      - name: 의존성 설치
-        run: |
-          pip install -r requirements.txt
-          playwright install --with-deps chromium
-
-      - name: 1단계 - 공고 후보 발견
-        run: python crawler/discover.py
-              - name: 상세페이지 접근 테스트
+          python-version: '3.11'
+      - name: Check collected files
         run: |
           python - <<'PY'
-          import requests
-
-          url = "https://career.rememberapp.co.kr/job/posting/338701"
-
-          r = requests.get(
-              url,
-              headers={
-                  "User-Agent":
-                  "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                  "AppleWebKit/537.36 Chrome/152 Safari/537.36"
-              },
-              timeout=15
-          )
-
-          print("status:", r.status_code)
-          print("final_url:", r.url)
-          print("length:", len(r.text))
-          print("cloudflare:", "Attention Required!" in r.text)
+          import csv, json
+          from pathlib import Path
+          for path in Path('data').glob('*.json'):
+              json.loads(path.read_text(encoding='utf-8-sig'))
+          with open('data/jobs_sheet.csv', encoding='utf-8-sig', newline='') as f:
+              rows=list(csv.DictReader(f))
+          print(f'Validated {len(rows)} jobs')
           PY
-
-      - name: 2단계 - 헤딩써치 검증 및 상태 판정
-        run: python crawler/parse_job.py
-
-      - name: 3단계 - 구글시트용 CSV 생성
-        run: python crawler/export_csv.py
-
-      - name: 변경사항 커밋
-        run: |
-          git config user.name "heding-crawler-bot"
-          git config user.email "actions@github.com"
-          git add data/
-          git diff --quiet && git diff --staged --quiet || \
-            git commit -m "chore: 헤딩써치 공고 자동 갱신 $(date -u +%Y-%m-%d)"
-          git push
