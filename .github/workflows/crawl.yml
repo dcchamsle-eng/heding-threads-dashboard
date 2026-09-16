@@ -29,6 +29,28 @@ jobs:
 
       - name: 1단계 - 공고 후보 발견
         run: python crawler/discover.py
+              - name: 상세페이지 접근 테스트
+        run: |
+          python - <<'PY'
+          import requests
+
+          url = "https://career.rememberapp.co.kr/job/posting/338701"
+
+          r = requests.get(
+              url,
+              headers={
+                  "User-Agent":
+                  "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                  "AppleWebKit/537.36 Chrome/152 Safari/537.36"
+              },
+              timeout=15
+          )
+
+          print("status:", r.status_code)
+          print("final_url:", r.url)
+          print("length:", len(r.text))
+          print("cloudflare:", "Attention Required!" in r.text)
+          PY
 
       - name: 2단계 - 헤딩써치 검증 및 상태 판정
         run: python crawler/parse_job.py
