@@ -1,0 +1,45 @@
+name: 헤딩써치 공고 모니터링
+
+on:
+  schedule:
+    # 매일 오전 8시(KST) = UTC 23:00 전날
+    - cron: "0 23 * * *"
+  workflow_dispatch: {}  # 수동 실행 버튼 활성화
+
+permissions:
+  contents: write
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 저장소 체크아웃
+        uses: actions/checkout@v4
+
+      - name: Python 설치
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 의존성 설치
+        run: |
+          pip install -r requirements.txt
+          playwright install --with-deps chromium
+
+      - name: 1단계 - 공고 후보 발견 (Playwright, 검색만)
+        run: python crawler/discover.py
+
+      - name: 2단계 - 헤딩써치 검증 + 신규/변경/마감 판정 (requests+bs4)
+        run: python crawler/parse_job.py
+
+      - name: 3단계 - 구글시트용 CSV 생성 (점수 포함)
+        run: python crawler/export_csv.py
+
+      - name: 변경사항 커밋
+        run: |
+          git config user.name "heding-crawler-bot"
+          git config user.email "actions@github.com"
+          git add data/
+          git diff --quiet && git diff --staged --quiet || \
+            git commit -m "chore: 헤딩써치 공고 자동 갱신 $(date -u +%Y-%m-%d)"
+          git push
