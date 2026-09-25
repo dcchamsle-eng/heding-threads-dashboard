@@ -3944,7 +3944,7 @@
     "detail_schema": 2,
     "status": "active",
     "first_seen_at": "2026-09-22T06:40:55+0900",
-    "last_seen_at": "2026-09-25T06:40:57+0900",
+    "last_seen_at": "2026-09-26T06:41:09+0900",
     "last_fetched_at": "2026-09-22T06:40:55+0900",
     "missed_count": 0,
     "content_hash": "81977c11f6ec332c"
@@ -3994,7 +3994,7 @@
     "detail_schema": 2,
     "status": "active",
     "first_seen_at": "2026-09-22T06:40:55+0900",
-    "last_seen_at": "2026-09-25T06:40:57+0900",
+    "last_seen_at": "2026-09-26T06:41:09+0900",
     "last_fetched_at": "2026-09-22T06:40:55+0900",
     "missed_count": 0,
     "content_hash": "65b09ea1bb8d62bc"
@@ -4019,7 +4019,7 @@
     "detail_schema": 2,
     "status": "active",
     "first_seen_at": "2026-09-23T06:40:57+0900",
-    "last_seen_at": "2026-09-25T06:40:57+0900",
+    "last_seen_at": "2026-09-26T06:41:09+0900",
     "last_fetched_at": "2026-09-23T06:40:57+0900",
     "missed_count": 0,
     "content_hash": "a40e3a8c2c2e0dd7"
@@ -4044,7 +4044,7 @@
     "detail_schema": 2,
     "status": "active",
     "first_seen_at": "2026-09-23T06:40:57+0900",
-    "last_seen_at": "2026-09-25T06:40:57+0900",
+    "last_seen_at": "2026-09-26T06:41:09+0900",
     "last_fetched_at": "2026-09-23T06:40:57+0900",
     "missed_count": 0,
     "content_hash": "a6aacd7db37a8127"
@@ -4069,7 +4069,7 @@
     "detail_schema": 2,
     "status": "active",
     "first_seen_at": "2026-09-23T06:40:57+0900",
-    "last_seen_at": "2026-09-25T06:40:57+0900",
+    "last_seen_at": "2026-09-26T06:41:09+0900",
     "last_fetched_at": "2026-09-23T06:40:57+0900",
     "missed_count": 0,
     "content_hash": "aa1e29a7169c10cc"
@@ -4094,7 +4094,7 @@
     "detail_schema": 2,
     "status": "active",
     "first_seen_at": "2026-09-23T06:40:57+0900",
-    "last_seen_at": "2026-09-25T06:40:57+0900",
+    "last_seen_at": "2026-09-26T06:41:09+0900",
     "last_fetched_at": "2026-09-23T06:40:57+0900",
     "missed_count": 0,
     "content_hash": "8ce6e822b116245c"
@@ -4119,7 +4119,7 @@
     "detail_schema": 2,
     "status": "active",
     "first_seen_at": "2026-09-23T06:40:57+0900",
-    "last_seen_at": "2026-09-25T06:40:57+0900",
+    "last_seen_at": "2026-09-26T06:41:09+0900",
     "last_fetched_at": "2026-09-23T06:40:57+0900",
     "missed_count": 0,
     "content_hash": "a0f695d39c354dea"
@@ -4144,7 +4144,7 @@
     "detail_schema": 2,
     "status": "active",
     "first_seen_at": "2026-09-23T06:40:57+0900",
-    "last_seen_at": "2026-09-25T06:40:57+0900",
+    "last_seen_at": "2026-09-26T06:41:09+0900",
     "last_fetched_at": "2026-09-23T06:40:57+0900",
     "missed_count": 0,
     "content_hash": "030a3be37cedfeed"
@@ -4169,7 +4169,7 @@
     "detail_schema": 2,
     "status": "active",
     "first_seen_at": "2026-09-23T06:40:57+0900",
-    "last_seen_at": "2026-09-25T06:40:57+0900",
+    "last_seen_at": "2026-09-26T06:41:09+0900",
     "last_fetched_at": "2026-09-23T06:40:57+0900",
     "missed_count": 0,
     "content_hash": "2c9bb4179c34b692"
@@ -4194,7 +4194,7 @@
     "detail_schema": 2,
     "status": "active",
     "first_seen_at": "2026-09-23T06:40:57+0900",
-    "last_seen_at": "2026-09-25T06:40:57+0900",
+    "last_seen_at": "2026-09-26T06:41:09+0900",
     "last_fetched_at": "2026-09-23T06:40:57+0900",
     "missed_count": 0,
     "content_hash": "0a1d97e1dd6f3a54"
@@ -4219,7 +4219,7 @@
     "detail_schema": 2,
     "status": "active",
     "first_seen_at": "2026-09-23T06:40:57+0900",
-    "last_seen_at": "2026-09-25T06:40:57+0900",
+    "last_seen_at": "2026-09-26T06:41:09+0900",
     "last_fetched_at": "2026-09-23T06:40:57+0900",
     "missed_count": 0,
     "content_hash": "6cc2906c6c639eb6"
@@ -4244,7 +4244,7 @@
     "detail_schema": 2,
     "status": "active",
     "first_seen_at": "2026-09-23T06:40:57+0900",
-    "last_seen_at": "2026-09-25T06:40:57+0900",
+    "last_seen_at": "2026-09-26T06:41:09+0900",
     "last_fetched_at": "2026-09-23T06:40:57+0900",
     "missed_count": 0,
     "content_hash": "5cceaaa6f0d5ccfe"
@@ -4269,7 +4269,7 @@
     "detail_schema": 2,
     "status": "active",
     "first_seen_at": "2026-09-23T06:40:57+0900",
-    "last_seen_at": "2026-09-25T06:40:57+0900",
+    "last_seen_at": "2026-09-26T06:41:09+0900",
     "last_fetched_at": "2026-09-23T06:40:57+0900",
     "missed_count": 0,
     "content_hash": "b6c2e65280f8d02a"
@@ -4294,7 +4294,7 @@
     "detail_schema": 2,
     "status": "active",
     "first_seen_at": "2026-09-23T06:40:57+0900",
-    "last_seen_at": "2026-09-25T06:40:57+0900",
+    "last_seen_at": "2026-09-26T06:41:09+0900",
     "last_fetched_at": "2026-09-23T06:40:57+0900",
     "missed_count": 0,
     "content_hash": "8308d838e7880fa9"
@@ -4319,7 +4319,7 @@
     "detail_schema": 2,
     "status": "active",
     "first_seen_at": "2026-09-23T06:40:57+0900",
-    "last_seen_at": "2026-09-25T06:40:57+0900",
+    "last_seen_at": "2026-09-26T06:41:09+0900",
     "last_fetched_at": "2026-09-23T06:40:57+0900",
     "missed_count": 0,
     "content_hash": "571b82efe4feb9f9"
@@ -4344,7 +4344,7 @@
     "detail_schema": 2,
     "status": "active",
     "first_seen_at": "2026-09-23T06:40:57+0900",
-    "last_seen_at": "2026-09-25T06:40:57+0900",
+    "last_seen_at": "2026-09-26T06:41:09+0900",
     "last_fetched_at": "2026-09-23T06:40:57+0900",
     "missed_count": 0,
     "content_hash": "fff9cb66894fe8f3"
@@ -4369,7 +4369,7 @@
     "detail_schema": 2,
     "status": "active",
     "first_seen_at": "2026-09-23T06:40:57+0900",
-    "last_seen_at": "2026-09-25T06:40:57+0900",
+    "last_seen_at": "2026-09-26T06:41:09+0900",
     "last_fetched_at": "2026-09-23T06:40:57+0900",
     "missed_count": 0,
     "content_hash": "8c7f2b22003abb3a"
@@ -4394,7 +4394,7 @@
     "detail_schema": 2,
     "status": "active",
     "first_seen_at": "2026-09-23T06:40:57+0900",
-    "last_seen_at": "2026-09-25T06:40:57+0900",
+    "last_seen_at": "2026-09-26T06:41:09+0900",
     "last_fetched_at": "2026-09-23T06:40:57+0900",
     "missed_count": 0,
     "content_hash": "18c33b3a978eb8f1"
@@ -4419,7 +4419,7 @@
     "detail_schema": 2,
     "status": "active",
     "first_seen_at": "2026-09-23T06:40:57+0900",
-    "last_seen_at": "2026-09-25T06:40:57+0900",
+    "last_seen_at": "2026-09-26T06:41:09+0900",
     "last_fetched_at": "2026-09-23T06:40:57+0900",
     "missed_count": 0,
     "content_hash": "d12f889dcb555ea3"
@@ -4444,7 +4444,7 @@
     "detail_schema": 2,
     "status": "active",
     "first_seen_at": "2026-09-23T06:40:57+0900",
-    "last_seen_at": "2026-09-25T06:40:57+0900",
+    "last_seen_at": "2026-09-26T06:41:09+0900",
     "last_fetched_at": "2026-09-23T06:40:57+0900",
     "missed_count": 0,
     "content_hash": "4dca26a113481d12"
@@ -4469,7 +4469,7 @@
     "detail_schema": 2,
     "status": "active",
     "first_seen_at": "2026-09-23T06:40:57+0900",
-    "last_seen_at": "2026-09-25T06:40:57+0900",
+    "last_seen_at": "2026-09-26T06:41:09+0900",
     "last_fetched_at": "2026-09-23T06:40:57+0900",
     "missed_count": 0,
     "content_hash": "69bae73426e10379"
@@ -4494,7 +4494,7 @@
     "detail_schema": 2,
     "status": "active",
     "first_seen_at": "2026-09-23T06:40:57+0900",
-    "last_seen_at": "2026-09-25T06:40:57+0900",
+    "last_seen_at": "2026-09-26T06:41:09+0900",
     "last_fetched_at": "2026-09-23T06:40:57+0900",
     "missed_count": 0,
     "content_hash": "e0d37457f67263e8"
@@ -4519,7 +4519,7 @@
     "detail_schema": 2,
     "status": "active",
     "first_seen_at": "2026-09-23T06:40:57+0900",
-    "last_seen_at": "2026-09-25T06:40:57+0900",
+    "last_seen_at": "2026-09-26T06:41:09+0900",
     "last_fetched_at": "2026-09-23T06:40:57+0900",
     "missed_count": 0,
     "content_hash": "66eaccb3949ac4ff"
@@ -4544,7 +4544,7 @@
     "detail_schema": 2,
     "status": "active",
     "first_seen_at": "2026-09-23T06:40:57+0900",
-    "last_seen_at": "2026-09-25T06:40:57+0900",
+    "last_seen_at": "2026-09-26T06:41:09+0900",
     "last_fetched_at": "2026-09-23T06:40:57+0900",
     "missed_count": 0,
     "content_hash": "3589fd4fdef155ae"
@@ -4569,7 +4569,7 @@
     "detail_schema": 2,
     "status": "active",
     "first_seen_at": "2026-09-23T06:40:57+0900",
-    "last_seen_at": "2026-09-25T06:40:57+0900",
+    "last_seen_at": "2026-09-26T06:41:09+0900",
     "last_fetched_at": "2026-09-23T06:40:57+0900",
     "missed_count": 0,
     "content_hash": "695d97c6534b2241"
@@ -4594,7 +4594,7 @@
     "detail_schema": 2,
     "status": "active",
     "first_seen_at": "2026-09-23T06:40:57+0900",
-    "last_seen_at": "2026-09-25T06:40:57+0900",
+    "last_seen_at": "2026-09-26T06:41:09+0900",
     "last_fetched_at": "2026-09-23T06:40:57+0900",
     "missed_count": 0,
     "content_hash": "310ea2493191d897"
@@ -4619,7 +4619,7 @@
     "detail_schema": 2,
     "status": "active",
     "first_seen_at": "2026-09-23T06:40:57+0900",
-    "last_seen_at": "2026-09-25T06:40:57+0900",
+    "last_seen_at": "2026-09-26T06:41:09+0900",
     "last_fetched_at": "2026-09-23T06:40:57+0900",
     "missed_count": 0,
     "content_hash": "574de3d23b025bfd"
@@ -4644,7 +4644,7 @@
     "detail_schema": 2,
     "status": "active",
     "first_seen_at": "2026-09-23T06:40:57+0900",
-    "last_seen_at": "2026-09-25T06:40:57+0900",
+    "last_seen_at": "2026-09-26T06:41:09+0900",
     "last_fetched_at": "2026-09-23T06:40:57+0900",
     "missed_count": 0,
     "content_hash": "8cbf60a5143d76a9"
@@ -4669,7 +4669,7 @@
     "detail_schema": 2,
     "status": "active",
     "first_seen_at": "2026-09-23T06:40:57+0900",
-    "last_seen_at": "2026-09-25T06:40:57+0900",
+    "last_seen_at": "2026-09-26T06:41:09+0900",
     "last_fetched_at": "2026-09-23T06:40:57+0900",
     "missed_count": 0,
     "content_hash": "392479a7309b493e"
@@ -4694,7 +4694,7 @@
     "detail_schema": 2,
     "status": "active",
     "first_seen_at": "2026-09-23T06:40:57+0900",
-    "last_seen_at": "2026-09-25T06:40:57+0900",
+    "last_seen_at": "2026-09-26T06:41:09+0900",
     "last_fetched_at": "2026-09-23T06:40:57+0900",
     "missed_count": 0,
     "content_hash": "57d279e8721702a6"
@@ -4719,7 +4719,7 @@
     "detail_schema": 2,
     "status": "active",
     "first_seen_at": "2026-09-23T06:40:57+0900",
-    "last_seen_at": "2026-09-25T06:40:57+0900",
+    "last_seen_at": "2026-09-26T06:41:09+0900",
     "last_fetched_at": "2026-09-23T06:40:57+0900",
     "missed_count": 0,
     "content_hash": "5173c5910a8afc5d"
@@ -4744,7 +4744,7 @@
     "detail_schema": 2,
     "status": "active",
     "first_seen_at": "2026-09-23T06:40:57+0900",
-    "last_seen_at": "2026-09-25T06:40:57+0900",
+    "last_seen_at": "2026-09-26T06:41:09+0900",
     "last_fetched_at": "2026-09-23T06:40:57+0900",
     "missed_count": 0,
     "content_hash": "33131e872ecef3f5"
@@ -4769,7 +4769,7 @@
     "detail_schema": 2,
     "status": "active",
     "first_seen_at": "2026-09-24T06:41:02+0900",
-    "last_seen_at": "2026-09-25T06:40:57+0900",
+    "last_seen_at": "2026-09-26T06:41:09+0900",
     "last_fetched_at": "2026-09-24T06:41:02+0900",
     "missed_count": 0,
     "content_hash": "788660343eca46ab"
@@ -4794,7 +4794,7 @@
     "detail_schema": 2,
     "status": "active",
     "first_seen_at": "2026-09-24T06:41:02+0900",
-    "last_seen_at": "2026-09-25T06:40:57+0900",
+    "last_seen_at": "2026-09-26T06:41:09+0900",
     "last_fetched_at": "2026-09-24T06:41:02+0900",
     "missed_count": 0,
     "content_hash": "5cfb2801d76dec92"
@@ -4819,7 +4819,7 @@
     "detail_schema": 2,
     "status": "active",
     "first_seen_at": "2026-09-24T06:41:02+0900",
-    "last_seen_at": "2026-09-25T06:40:57+0900",
+    "last_seen_at": "2026-09-26T06:41:09+0900",
     "last_fetched_at": "2026-09-24T06:41:02+0900",
     "missed_count": 0,
     "content_hash": "a193ca7d6c39bd47"
@@ -4844,7 +4844,7 @@
     "detail_schema": 2,
     "status": "active",
     "first_seen_at": "2026-09-24T06:41:02+0900",
-    "last_seen_at": "2026-09-25T06:40:57+0900",
+    "last_seen_at": "2026-09-26T06:41:09+0900",
     "last_fetched_at": "2026-09-24T06:41:02+0900",
     "missed_count": 0,
     "content_hash": "22be543495b6a647"
@@ -4869,7 +4869,7 @@
     "detail_schema": 2,
     "status": "active",
     "first_seen_at": "2026-09-24T06:41:02+0900",
-    "last_seen_at": "2026-09-25T06:40:57+0900",
+    "last_seen_at": "2026-09-26T06:41:09+0900",
     "last_fetched_at": "2026-09-24T06:41:02+0900",
     "missed_count": 0,
     "content_hash": "7d5f3c676dd8e1ba"
@@ -4894,7 +4894,7 @@
     "detail_schema": 2,
     "status": "active",
     "first_seen_at": "2026-09-24T06:41:02+0900",
-    "last_seen_at": "2026-09-25T06:40:57+0900",
+    "last_seen_at": "2026-09-26T06:41:09+0900",
     "last_fetched_at": "2026-09-24T06:41:02+0900",
     "missed_count": 0,
     "content_hash": "d6be97045857f673"
@@ -4919,7 +4919,7 @@
     "detail_schema": 2,
     "status": "active",
     "first_seen_at": "2026-09-24T06:41:02+0900",
-    "last_seen_at": "2026-09-25T06:40:57+0900",
+    "last_seen_at": "2026-09-26T06:41:09+0900",
     "last_fetched_at": "2026-09-24T06:41:02+0900",
     "missed_count": 0,
     "content_hash": "4a921cd25e84c6cd"
@@ -4944,7 +4944,7 @@
     "detail_schema": 2,
     "status": "active",
     "first_seen_at": "2026-09-24T06:41:02+0900",
-    "last_seen_at": "2026-09-25T06:40:57+0900",
+    "last_seen_at": "2026-09-26T06:41:09+0900",
     "last_fetched_at": "2026-09-24T06:41:02+0900",
     "missed_count": 0,
     "content_hash": "acca70166cbf570a"
@@ -4969,7 +4969,7 @@
     "detail_schema": 2,
     "status": "active",
     "first_seen_at": "2026-09-24T06:41:02+0900",
-    "last_seen_at": "2026-09-25T06:40:57+0900",
+    "last_seen_at": "2026-09-26T06:41:09+0900",
     "last_fetched_at": "2026-09-24T06:41:02+0900",
     "missed_count": 0,
     "content_hash": "ca6eb27654a921d1"
@@ -4994,7 +4994,7 @@
     "detail_schema": 2,
     "status": "active",
     "first_seen_at": "2026-09-24T06:41:02+0900",
-    "last_seen_at": "2026-09-25T06:40:57+0900",
+    "last_seen_at": "2026-09-26T06:41:09+0900",
     "last_fetched_at": "2026-09-24T06:41:02+0900",
     "missed_count": 0,
     "content_hash": "271397b03d222619"
@@ -5019,7 +5019,7 @@
     "detail_schema": 2,
     "status": "active",
     "first_seen_at": "2026-09-24T06:41:02+0900",
-    "last_seen_at": "2026-09-25T06:40:57+0900",
+    "last_seen_at": "2026-09-26T06:41:09+0900",
     "last_fetched_at": "2026-09-24T06:41:02+0900",
     "missed_count": 0,
     "content_hash": "bd355cde11754344"
@@ -5044,7 +5044,7 @@
     "detail_schema": 2,
     "status": "active",
     "first_seen_at": "2026-09-24T06:41:02+0900",
-    "last_seen_at": "2026-09-25T06:40:57+0900",
+    "last_seen_at": "2026-09-26T06:41:09+0900",
     "last_fetched_at": "2026-09-24T06:41:02+0900",
     "missed_count": 0,
     "content_hash": "2a96e1a10b440761"
@@ -5069,7 +5069,7 @@
     "detail_schema": 2,
     "status": "active",
     "first_seen_at": "2026-09-24T06:41:02+0900",
-    "last_seen_at": "2026-09-25T06:40:57+0900",
+    "last_seen_at": "2026-09-26T06:41:09+0900",
     "last_fetched_at": "2026-09-24T06:41:02+0900",
     "missed_count": 0,
     "content_hash": "c418248c5afcc6a9"
@@ -5094,9 +5094,34 @@
     "detail_schema": 2,
     "status": "active",
     "first_seen_at": "2026-09-24T06:41:02+0900",
-    "last_seen_at": "2026-09-25T06:40:57+0900",
+    "last_seen_at": "2026-09-26T06:41:09+0900",
     "last_fetched_at": "2026-09-24T06:41:02+0900",
     "missed_count": 0,
     "content_hash": "57280d451f7a9d07"
+  },
+  "328781": {
+    "posting_id": "328781",
+    "url": "https://career.rememberapp.co.kr/job/posting/328781",
+    "headhunting_company": "헤딩써치",
+    "title": "온라인 국비지원 교육사업 매니저",
+    "company_desc": "온라인 국비지원 교육사업 매니저를 채용하는 포지션입니다.",
+    "main_duties": "- 정부지원 온라인 단기교육(KDC·재직자 내일배움카드 등)사업 전반을 총괄하고, 가치 높은 교육과정의 런칭부터 운영관리까지 A to Z를 책임 관리\n- 프로그래밍, 생성AI 등 디지털 역량 강화 교육 시장성을 분석하고 이를 사업 전략 및 신규 과정 포트폴리오 의사결정으로 연결\n- 교육결과 등 VOC 데이터 분석을 통해 학습자관점으로 사고하며 인사이트 도출하고, 이를 통해 핵심 지표 개선 전략을 수립·실행\n- 교육 커리큘럼 개발 및 고도화을 위한 강사/멘토/수강생 등 이해관계자 커뮤니케이션 총괄\n- 강사진/멘토 섭외 및 교육의 퀄리티 관리\n- 정부 직업훈련 신규심사 및 사업 수주 총괄",
+    "requirements": "- 고용노동부 국비지원 온라인 원격 훈련 운영 경험 3년 이상\n- 고용노동부, 직능원, 산업인력공단 등 유관기관 대응 경험자\n- 파트단위 인력·업무 관리(리딩) 경험\n- 데이터 기반의 고객 이해, 교육 만족도 회고, 다양한 자료 분석을 통해 핵심 문제를 도출하고 사업 의사결정으로 연결하는 역량\n- 사업 성과 극대화를 위해 능동적이고 치열하게 고민하는 주도적인 자세\n- 이해관계자 및 파트원과의 유연하고 명확한 커뮤니케이션 능력, 갑작스러운 이슈에 대한 문제 해결력\n- 맡은 사업의 결과를 끝까지 만들어내는 끈기와 책임감, 파트 전반에 대한 오너십\n- 다양한 교육 내용에 대한 빠른 학습능력, 자기계발에 대한 욕심\n- 생성형 AI를 활용하여 빠르고 정확한 프롬프팅으로 결과 및 산출물을 제작할 수 있는 능력",
+    "preferred": "- APEX 점수 보유자(APEX는 패스트캠퍼스에서 운영 중인 AI 실무 능력 인증 시험입니다.)\n- 정부 직업훈련 또는 고용노동부 사업주 훈련 심사 및 교육운영 경험이 3년 이상 있는 분\n- 교육사업 또는 유관 사업의 사업관리·수주 경험과 인력관리 경험이 있는 분\n- B2C, B2B, B2G사업간의 특성과 차이에 대한 이해도가 높은 분\n- 데이터 분석, 생성AI 등 디지털 신기술에 대한 이해도가 높은 자\n- 다양한 이해관계자들과 활발하게 커뮤니케이션 잘 할 수 있는 분\n- 고용노동부 직업훈련에 대한 이해가 있는 분\n- 신규 사업기획서·운영계획서 작성 경험",
+    "career": "3~8년",
+    "location": "서울특별시 강남구",
+    "salary": "협의",
+    "deadline": "2026-10-09",
+    "published_at": "2026-09-25T00:00:00.000+09:00",
+    "job_category": "국내B2G영업",
+    "source_organization": "(주)헤딩써치",
+    "source_closed": false,
+    "detail_schema": 2,
+    "status": "active",
+    "first_seen_at": "2026-09-26T06:41:09+0900",
+    "last_seen_at": "2026-09-26T06:41:09+0900",
+    "last_fetched_at": "2026-09-26T06:41:09+0900",
+    "missed_count": 0,
+    "content_hash": "6fe8652ca02e17a3"
   }
 }
